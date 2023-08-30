@@ -1,0 +1,19 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Inter:wght@100;700&family=Montserrat:wght@700&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,200;0,400;1,100;1,300;1,400;1,700&family=Space+Mono:wght@700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+  .name{
+    @apply font-semibold text-[18px] font-body mt-[15px];
+  }
+  .profesion{
+    @apply font-normal flex-grow-0 text-[12px] rotate-90 uppercase absolute top-0 right-4 origin-top-right 
+    md:right-0 font-titre ;
+  }
+}
