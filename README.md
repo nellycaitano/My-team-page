@@ -12,7 +12,11 @@
       Demo
     </a>
     <span> | </span>
+<<<<<<< HEAD
     <a href="https://{your-url-to-the-solution}">
+=======
+    <a href="https://my-team-page-neon.vercel.app/">
+>>>>>>> ba8b77671a21515d522bb889c73c160f56003762
       Solution
     </a>
     <span> | </span>
@@ -49,8 +53,12 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
+<<<<<<< HEAD
 - [React](https://reactjs.org/)
 - [Vue.js](https://vuejs.org/)
+=======
+- [Vite](https://vitejs.dev/)
+>>>>>>> ba8b77671a21515d522bb889c73c160f56003762
 - [Tailwind](https://tailwindcss.com/)
 
 ## Features
