@@ -13,7 +13,14 @@
     @apply font-semibold text-[18px] font-body mt-[15px];
   }
   .profesion{
-    @apply font-normal flex-grow-0 text-[12px] rotate-90 uppercase absolute top-0 right-3 origin-top-right 
-    md:right-3  font-titre ;
+    @apply font-normal text-[12px] rotate-90 uppercase absolute top-0 right-0 origin-top-right 
+    md:right-3 font-titre ;
   }
+ 
+}
+
+.work {
+  writing-mode:  vertical-lr;
+  text-orientation: mixed;
+  transform-origin: top;
 }

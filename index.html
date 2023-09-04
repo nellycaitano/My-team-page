@@ -11,51 +11,64 @@
   <!-- grid-cols-1 md:grid-cols-2  -->
   <!-- <main class="flex-grow mx-1 grid grid-cols-1 md:grid-cols-2 gap-16 justify-center items-center px-4"> -->
 
-  <body class=" antialiased min-h-screen font-body ">
+  <body class=" antialiased min-h-screen font-body p-4">
     <div class="max-w-5xl w-full md:mx-auto">
-      <div class="flex flex-col md:flex-row items-center justify-between">
-          <h1 class="text-[36px] text-left mr-28 tracking-[-1.62px] font-bold font-titre">The creative crew</h1>
-          <div class="text-[18px] mt-[38px] mb-[38px]">
-            <p class="font-semibold">WHO WE ARE</p>
-            <p class="w-[380px] mt-[10px] font-normal text-[18px] md:text-[18px]">We are team of creatively diverse driven,innovate individuals working in various locations from the world.</p>
+      <div class="md:flex flex-col md:flex-row items-center justify-between">
+          <h1 class="text-[36px] tracking-[-1.62px] ml-3 md:ml-0 font-bold font-titre mt-[30px]">The creative crew</h1>
+          <div class="text-[18px] mt-[38px] ml-3 md:mt-[110px]">
+            <p class="font-semibold ">WHO WE ARE</p>
+            <p class=" md:w-[439px] mt-[10px] font-normal text-[18px] md:text-[18px]">We are team of creatively diverse driven,innovate individuals working in various locations from the world.</p>
           </div>
       </div>
 
       <div class=" grid grid-cols-2 gap-x-[25px] gap-y-[24px] md:grid-cols-3 md:gap-[65px] mt-9 md:mt-[66px] ">
-        <div class=" w-full md:w-[270px]  relative inline-block ml-2"> 
-          <img src="public/photo1.png" alt="1" class=" w-[150px] h-[280px] md:w-[238px] md:h-[341px] object-cover"> 
-          <p class="name" >Bill Mahoney</p> 
-          <p class="profesion  mt-[105px] " >PRODUCT OWNER</p> 
+
+        <div class="flex w-full md:w-[270px] ml-2"> 
+          <div class="">
+            <img src="public/photo1.png" alt="1" class=" h-[280px] w-[160px] sm:w-full lg:w-full md:h-[341px] object-cover"> 
+            <p class="name" >Bill Mahoney</p> 
+          </div>
+          <p class="work font-normal text-[12px] uppercase" >PRODUCT OWNER</p> 
         </div>
 
-        <div class=" w-full md:w-[270px]  mt-[64px]  relative inline-block"> 
-          <img src="public/photo2.png" alt="2" class="w-[150px] h-[280px] md:w-[238px] md:h-[347px] object-cover"> 
-          <p class="name" >Saba Cabrera</p> 
-          <p class="profesion mt-[86px]" >ART DIRECTOR</p> 
+        <div class=" w-full md:w-[270px] mt-[64px] flex"> 
+          <div>
+            <img src="public/photo2.png" alt="2" class="h-[280px] lg:w-full w-[160px] sm:w-full md:h-[347px] object-cover"> 
+            <p class="name" >Saba Cabrera</p> 
+          </div>
+          <p class="work font-normal text-[12px] uppercase" >ART DIRECTOR</p> 
         </div>
 
-        <div class="w-full md:w-[270px] relative inline-block ml-2"> 
-          <img src="public/photo3.png" alt="3" class="w-[150px] h-[280px] md:w-[238px] md:h-[341px] object-cover"> 
-          <p class="name" >Shae Le</p> 
-          <p class="profesion  mt-[60px]" >TECH LEAD</p> 
+        <div class="w-full md:w-[270px] ml-2 flex">
+          <div>
+            <img src="public/photo3.png" alt="3" class="h-[280px] w-[160px] sm:w-full lg:w-full md:h-[341px] object-cover"> 
+            <p class="name" >Shae Le</p> 
+          </div> 
+          <p class="work font-normal text-[12px] uppercase" >TECH LEAD</p> 
         </div>
 
-       <div class="w-full md:w-[270px] mt-[64px] md:mt-0 relative inline-block"> 
-          <p class="profesion  mt-[70px] " >UX DESIGNER</p>
-          <img src="public/photo4.png" alt="4" class=" w-[150px] h-[280px] md:w-[237px] md:h-[341px] object-cover "> 
-          <p class="name" >Skylah Lu</p> 
+        <div class="w-full md:w-[270px] mt-[64px] md:mt-0 flex">
+          <div>
+            <img src="public/photo4.png" alt="4" class=" h-[280px] w-[160px] sm:w-full  lg:w-full md:h-[341px] object-cover ">
+            <p class="name" >Skylah Lu</p> 
+          </div> 
+          <p class="work font-normal text-[12px] uppercase" >UX DESIGNER</p> 
         </div>
 
-        <div class="w-full md:w-[270px]  md:mt-[96px]  relative inline-block ml-2"> 
-          <img src="public/photo5.png" alt="5" class=" w-[150px] h-[280px] md:w-[238px] md:h-[347px] object-cover "> 
-          <p class="name" >Griffs Richard</p> 
-          <p class="profesion   mt-[70px]" >DEVELOPPER</p> 
+        <div class="w-full md:w-[270px]  md:mt-[96px] ml-2 flex"> 
+          <div>
+            <img src="public/photo5.png" alt="5" class=" h-[280px] w-[160px] sm:w-full lg:w-full md:h-[347px] object-cover "> 
+            <p class="name" >Griffs Richard</p> 
+          </div>
+          <p class="work font-normal text-[12px] uppercase" >DEVELOPPER</p> 
         </div>
 
-        <div class="w-full md:w-[270px] mt-[64px] md:mt-0 relative inline-block "> 
-          <img src="public/photo6.png" alt="6" class=" w-[150px] h-[280px] md:w-[237px] md:h-[341px] object-cover"> 
-          <p class="name" >Stan John</p> 
-          <p class="profesion  mt-[70px]" >DEVELOPPER</p> 
+        <div class="w-full md:w-[270px] mt-[64px] md:mt-0 flex"> 
+          <div>
+            <img src="public/photo6.png" alt="6" class=" h-[280px]  w-[160px] sm:w-full lg:w-[237px] md:h-[341px] object-cover"> 
+            <p class="name" >Stan John</p> 
+          </div>
+          <p class="work font-normal text-[12px] uppercase" >DEVELOPPER</p> 
         </div>  
     
       </div> 
@@ -67,12 +80,4 @@
   </footer>
   </body>
 </html>
-<!-- <div class="grid grid-cols-1 gap-y-[64px] md:grid-cols-2 md:gap-x-[35px] md:gap-y-[65px] mt-9 md:mt-[66px]">
-  <div class="w-full md:w-[50%] relative inline-block flex items-center md:flex-col">
-    <img src="public/photo1.png" alt="1" class="w-[100%] h-auto md:w-[238px] md:h-[341px] object-cover">
-    <div class="md:ml-[15px] transform -rotate-90 origin-right text-right">
-      <p class="name font-semibold text-[18px] font-body">Bill Mahoney</p>
-      <p class="profession font-normal text-[12px] md:text-[12px] uppercase md:uppercase mt-[15px] md:mt-[15px]">PRODUCT OWNER</p>
-    </div>
-  </div> -->
-  
+
